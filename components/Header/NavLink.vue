@@ -26,7 +26,7 @@
       <!-- Label -->
       <span
         class="mt-1 font-bold text-[11px] leading-none"
-        :style="`color: ${isActive ? 'black' : 'rgb(153, 165, 184)'}`"
+        :style="`color: ${isActive ? 'black' : ''}`"
         >{{ label }}</span
       >
     </NuxtLink>

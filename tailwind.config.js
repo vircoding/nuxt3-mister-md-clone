@@ -12,6 +12,7 @@ export default {
     extend: {
       colors: {
         background: 'rgb(242, 243, 247)',
+        accent: 'rgb(50, 195, 118)',
         secondary: 'rgb(153, 165, 184)',
         tertiary: 'rgb(234, 236, 240)',
         'border-accent': 'rgb(229, 231, 235)',

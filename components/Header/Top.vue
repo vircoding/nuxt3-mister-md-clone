@@ -1,5 +1,5 @@
 <template>
-  <div class="flex bg-white items-center justify-between w-full h-[60px]">
+  <div class="flex bg-white text-black items-center justify-between w-full h-[60px]">
     <!-- Left -->
     <div class="flex items-center">
       <!-- Avatar -->

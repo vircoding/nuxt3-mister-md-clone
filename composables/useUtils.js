@@ -42,7 +42,14 @@ export const useUtils = () => {
     }
   };
 
+  const formatBalance = (balance) => {
+    // const regex = ;
+
+    return balance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+  };
+
   return {
     generateNavLinkProps,
+    formatBalance,
   };
 };
